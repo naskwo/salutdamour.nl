@@ -1,0 +1,136 @@
+.w-layout-layout {
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  grid-auto-columns: 1fr;
+  justify-content: center;
+  padding: 20px;
+}
+
+.w-layout-cell {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.body {
+  background-color: #fff1e0;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  font-family: Droid Serif, serif;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+}
+
+.poster {
+  border: 1px solid #bdbdbd;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  max-width: 640px;
+  padding: 20px 20px 0;
+  display: flex;
+}
+
+.logo {
+  width: 350px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.concert-details {
+  color: #fff1e1;
+  background-color: #37393b;
+  padding: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+.center.artists {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.right {
+  text-align: right;
+}
+
+.cell {
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.button {
+  border-radius: 8px;
+}
+
+.faq-block {
+  width: 100%;
+}
+
+@media screen and (max-width: 479px) {
+  .container {
+    width: auto;
+    height: auto;
+  }
+
+  .poster {
+    border-style: none;
+    margin-top: 10px;
+    padding: 0;
+  }
+
+  .logo {
+    width: 250px;
+  }
+
+  .center {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .right {
+    text-align: left;
+  }
+
+  .cell {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .button {
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .faq-block {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+#w-node-_613e3e12-7dfb-b48f-f467-350d59bf663b-b7068f51 {
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 479px) {
+  #w-node-_613e3e12-7dfb-b48f-f467-350d59bf663b-b7068f51 {
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+  }
+}
+
+
